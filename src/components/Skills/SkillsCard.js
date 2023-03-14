@@ -9,4 +9,4 @@ const SkillsCard = ({skill}) => {
     )
 }
 
-export default SkillsCard
+export default SkillsCard;

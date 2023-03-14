@@ -1,5 +1,7 @@
 import React from "react";
-import DevIcon from "devicon-react-svg"
+import About from "../../About";
+import Skills from "../../Skills";
+
 
 const Home = () => {
     return (
@@ -11,3 +13,7 @@ const Home = () => {
         </div>
     )
 }
+
+export default Home;
+
+
