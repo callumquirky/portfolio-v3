@@ -1,10 +1,12 @@
 import React from "react";
 
+
+
 function Project(props){
     return(
         <div className="col-md-">
             <div className="img-container">
-                <img alt={props.className} src={props.image}/>
+                <img alt={props.name} src={props.image}/>
             </div>
             <div className="project-content">
                 <h4>
@@ -13,11 +15,11 @@ function Project(props){
                 <p>
                     {props.description}
                 </p>
-            <a href={props.deployedLink}>
-                <button className="btn">View Repo</button>
+            <a className="btn" href={props.deployedLink}>
+                View Deployed Link
             </a>
-            <a href={props.repoLink}>
-            <button className="btn">View Deployed Link</button>
+            <a className ="btn" href={props.repoLink}>
+                View Repo
             </a>
             </div>
 

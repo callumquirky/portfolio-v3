@@ -2,7 +2,7 @@
     {
         "id": 1,
         "name": "What's For Tea!?",
-        "image": "./src/images/whats-for-tea.PNG",
+        "image": "images/me-pic.jpg",
         "description": "Search by meal name to find ingredients, search by the available ingredients in your house to get recipe suggestions, and then add the resulting meals to a mealplan!",
         "deployedLink": "https://callumquirky.github.io/whats-for-tea/",
         "repoLink": "https://github.com/callumquirky/whats-for-tea"
@@ -10,7 +10,7 @@
     {
         "id": 2,
         "name": "What's The Weather Like?",
-        "image": "./src/images/whats-the-weather.PNG",
+        "image": "images/whats-the-weather.png",
         "description": "Application utilising AJAX API calls to provide the user with up to date weather information for any city they choose.",
         "deployedLink": "https://callumquirky.github.io/what-is-the-weather-like/",
         "repoLink": "https://github.com/callumquirky/what-is-the-weather-like"
@@ -18,7 +18,7 @@
     {
         "id": 3,
         "name": "Password Generator",
-        "image": "./src/images/password-generator.PNG",
+        "image": "images/password-generator.PNG",
         "description": "A JavaScript application that generates randomly generated passwords for the user based on their preferences.",
         "deployedLink": "https://callumquirky.github.io/password-generator/",
         "repoLink": "https://github.com/callumquirky/password-generator"
@@ -26,7 +26,7 @@
     {
         "id": 4,
         "name": "JavaScript Quiz",
-        "image": "./src/images/javascript-quiz.PNG",
+        "image": "images/javascript-quiz.PNG",
         "description": "A JavaScript quiz built in JavaScript, displays questions by manipulating the DOM and is complete with high score save feature and a timer",
         "deployedLink": "https://callumquirky.github.io/javascript-quiz/",
         "repoLink": "https://github.com/callumquirky/javascript-quiz"
