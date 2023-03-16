@@ -1,10 +1,10 @@
 import React from "react";
-
+import '../Project/project.css'
 
 
 function Project(props){
     return(
-        <div className="col-md-">
+        <div className="col-md-4 project-container">
             <div className="img-container">
                 <img alt={props.name} src={props.image}/>
             </div>
