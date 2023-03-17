@@ -2,7 +2,7 @@
     {
         "id": 1,
         "name": "What's For Tea!?",
-        "image": "images/me-pic.jpg",
+        "image": "images/whats-for-tea.png",
         "description": "Search by meal name to find ingredients, search by the available ingredients in your house to get recipe suggestions, and then add the resulting meals to a mealplan!",
         "deployedLink": "https://callumquirky.github.io/whats-for-tea/",
         "repoLink": "https://github.com/callumquirky/whats-for-tea"

@@ -1,6 +1,11 @@
 .project-container {
     text-align: center;
     flex-direction: column;
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 5px;
 }
 
 .img-container img {
@@ -8,4 +13,31 @@
     max-width: 100%;
     height: auto;
     width: auto;
+    object-fit: 100%;
+}
+
+.project-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    background: #573391;
+    color: white;
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transition: visibility 0s, opacity 0.5s linear; 
+    transition: visibility 0s, opacity 0.5s linear;
+    
+}
+
+.project-container:hover {
+    cursor:pointer;
+}
+
+.project-container:hover .project-content{
+    height: 100%;
+    width: 100%;
+    visibility: visible;
+    opacity: 0.85; 
 }
