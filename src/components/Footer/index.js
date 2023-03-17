@@ -1,4 +1,5 @@
 import React from "react";
+import "../Footer/footer.css"
 
 const Footer = () => {
     return(
@@ -6,29 +7,29 @@ const Footer = () => {
             <div className="container">
                 <section className="mt-5">
                     <div className="row text-center d-flex justify-content-center">
-                        <div className="col-md-4">
+                        <div className="col-4">
                             <h6 className="font-weight-bold">
-                                <a href="#">Home</a>
+                                <a href="/">Home</a>
                             </h6>
                         </div>
-                        <div className="col-md-4">
+                        <div className="col-4">
                             <h6 className="font-weight-bold">
-                                <a href="#">Projects</a>
+                                <a href="/projects">Projects</a>
                             </h6>
                         </div>
-                        <div className="col-md-4">
+                        <div className="col-4">
                             <h6 className="font-weight-bold">
-                                <a href="#">Contact</a>
+                                <a href="/contact">Contact</a>
                             </h6>
                         </div>
                     </div>
                 </section>
-                <section className="text-center mb-5">
-                    <a href="" class="text-white me-4">
-                        <i class="fab fa-linkedin"></i>
+                <section className="socials mb-5">
+                    <a href="linkedin.com/in/callum-quirk-ba6269150" class="text-white me-4">
+                        <img className="footer-social" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-plain.svg" />
                     </a>
-                    <a href="" class="text-white me-4">
-                        <i class="fab fa-github"></i>
+                    <a href="https://github.com/callumquirky" class=" me-4">
+                        <img className="footer-social" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
                     </a>
                 </section>
             </div>
