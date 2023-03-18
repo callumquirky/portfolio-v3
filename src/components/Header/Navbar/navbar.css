@@ -1,0 +1,41 @@
+.navbar {
+    width: 5rem;
+    height: 100vh;
+    position: fixed;
+    background-color: #71187a;
+    transition: width, 0.5s ease;
+}
+
+.navbar:hover {
+    width: 10vw;
+}
+
+.navbar:hover .link-text {
+    display: block;
+}
+
+.navbar-nav {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.navbar-icon {
+    filter: invert(0%) sepia(2%) saturate(17%) hue-rotate(355deg) brightness(98%) contrast(99%);
+    height: 3vh;
+    transition: height 0.75s;
+}
+
+.navbar-icon:hover {
+    filter: invert(35%) sepia(93%) saturate(666%) hue-rotate(70deg) brightness(92%) contrast(96%);
+    height: 3.5vh;
+}
+
+.navbar-link{
+    display: flex;
+    align-items: center;
+    height:5rem;
+}

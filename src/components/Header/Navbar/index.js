@@ -1,39 +1,35 @@
 import React from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faHouse, faEnvelope, faDiagramProject } from "@fortawesome/free-solid-svg-icons";
 import "../Navbar/navbar.css"
 
 const Navbar = () => {
     return(
-        <nav className="navbar navbar-expand-lg navbar-light bg-light">
-            <a className="navbar-brand" href="#">
-                Callum Quirk
-            </a>
-            <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navBurger" aria-controls="navBurger" aria-expanded="false" aria-label="Toggle navigation">
-                <span className="navbar-toggler-icon"></span>
-            </button>
-
-            <div className="collapse navbar-collapse" id="navBurger">
-                <ul className="navbar-nav">
-                    <li className="nav-item active">
-                        <a className="nav-link" href="/">
-                            Home
-                        </a>
-                    </li>
-                </ul>
-                <ul className="navbar-nav">
-                    <li className="nav-item">
-                        <a className="nav-link" href="/projects">
-                            Projects
-                        </a>
-                    </li>
-                </ul>
-                <ul className="navbar-nav">
-                    <li className="nav-item">
-                        <a className="nav-link" href="/contact">
-                            Contact
-                        </a>
-                    </li>
-                </ul>
-            </div>
+        <nav className="navbar">
+            <ul className="navbar-nav">
+                <li className="nav-item active">
+                    <a className="nav-link" href="/">
+                        <FontAwesomeIcon icon={faHouse} className="navbar-icon"/>
+                        <span className="nav-link-text">Home</span>
+                    </a>
+                </li>
+            </ul>
+            <ul className="navbar-nav">
+                <li className="nav-item">
+                    <a className="nav-link" href="/projects">
+                    <FontAwesomeIcon icon={faDiagramProject} className="navbar-icon"/>
+                        <span className="nav-link-text">Projects</span>
+                    </a>
+                </li>
+            </ul>
+            <ul className="navbar-nav">
+                <li className="nav-item">
+                    <a className="nav-link" href="/contact">
+                        <FontAwesomeIcon icon={faEnvelope} className="navbar-icon"/>
+                        <span className="nav-link-text">contact</span>
+                    </a>
+                </li>
+            </ul>
         </nav>
     )
 }

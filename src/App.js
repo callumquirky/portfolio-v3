@@ -1,5 +1,7 @@
 import './App.css';
 import './fonts/fonts.css'
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faHome } from "@fortawesome/free-solid-svg-icons";
 import React, { components } from 'react'
 import { BrowserRouter as Router, Routes, Route, } from 'react-router-dom'
 import Navbar from './components/Header/Navbar';
@@ -16,12 +18,14 @@ function App() {
     <Router>
       <div>
         <Navbar />
+          <main>
           <Routes>
             <Route exact path="/" element={<Home />}/>
             <Route exact path="/contact" element={<Contact />}/>
             <Route exact path="/projects" element={<Projects />}/>
           </Routes>
         <Footer/>
+        </main>
       </div>
     </Router>
   );
