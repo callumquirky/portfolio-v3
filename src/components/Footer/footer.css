@@ -3,6 +3,24 @@ footer {
     
 }
 
+footer a {
+    text-decoration: none;
+}
+
+footer h4 {
+    height: 10vh;
+    padding: 5px;
+    margin: 5px;
+    color: black;
+    font-size: 3.5vh;
+    transition: font-size 0.75s;
+}
+
+footer h4:hover{
+    filter: invert(35%) sepia(93%) saturate(666%) hue-rotate(70deg) brightness(92%) contrast(96%);
+    font-size: 4vh;
+}
+
 .footer-social {
     height: 10vh;
     padding: 15px;
