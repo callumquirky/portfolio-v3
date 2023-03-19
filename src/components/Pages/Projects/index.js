@@ -4,7 +4,9 @@ import projectData from "./projectData.json"
 
 const Projects = () => {
     return(
-        <div className="container">
+        <div className="container pt-4">
+            <h2>My projects</h2>
+            <h4>Here are some projects I've worked on. Select a project to view the repo or view the deployed link.</h4>
             <div className="row">
                 <Project 
                 name={projectData[0].name}

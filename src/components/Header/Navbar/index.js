@@ -7,26 +7,22 @@ const Navbar = () => {
     return(
         <nav className="navbar">
             <ul className="navbar-nav">
-                <li className="nav-item active">
+                <li className="nav-item">
                     <a className="nav-link" href="/">
                         <FontAwesomeIcon icon={faHouse} className="navbar-icon"/>
                         <span className="nav-link-text">Home</span>
                     </a>
                 </li>
-            </ul>
-            <ul className="navbar-nav">
                 <li className="nav-item">
                     <a className="nav-link" href="/projects">
                     <FontAwesomeIcon icon={faDiagramProject} className="navbar-icon"/>
                         <span className="nav-link-text">Projects</span>
                     </a>
                 </li>
-            </ul>
-            <ul className="navbar-nav">
                 <li className="nav-item">
                     <a className="nav-link" href="/contact">
                         <FontAwesomeIcon icon={faEnvelope} className="navbar-icon"/>
-                        <span className="nav-link-text">contact</span>
+                        <span className="nav-link-text">Contact</span>
                     </a>
                 </li>
             </ul>

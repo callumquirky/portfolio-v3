@@ -1,18 +1,9 @@
 .navbar {
-    width: 5rem;
-    height: 100vh;
     position: fixed;
     background-color: #71187a;
     transition: width, 0.5s ease;
 }
 
-.navbar:hover {
-    width: 10vw;
-}
-
-.navbar:hover .link-text {
-    display: block;
-}
 
 .navbar-nav {
     list-style: none;
@@ -21,21 +12,82 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    height: 100%;
 }
 
 .navbar-icon {
     filter: invert(0%) sepia(2%) saturate(17%) hue-rotate(355deg) brightness(98%) contrast(99%);
     height: 3vh;
-    transition: height 0.75s;
 }
 
-.navbar-icon:hover {
+.nav-item:hover {
     filter: invert(35%) sepia(93%) saturate(666%) hue-rotate(70deg) brightness(92%) contrast(96%);
-    height: 3.5vh;
 }
 
-.navbar-link{
+.nav-link{
     display: flex;
     align-items: center;
-    height:5rem;
+    height: 5rem;
+    text-decoration: none;
+}
+
+.nav-link svg {
+    margin: 0 1.5rem;
+    min-width: 2rem;    
+}
+
+.nav-link-text {
+    display: none;
+    opacity: 0;
+    transition: opacity 0.75s ease;
+    margin-left: 1.5rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.nav-item {
+    width: 100%;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .navbar {
+        bottom: 0;
+        width: 100vw;
+        height: 4rem;
+    }
+
+    .navbar-nav {
+        width: 100vw;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .nav-link {
+        justify-content: center;
+    }
+
+
+    main {
+        margin: 0;
+    }
+}
+
+@media only screen and (min-width: 600px){
+    .navbar{
+        top: 0;
+        width: 5rem;
+        height: 100vh;
+    }
+
+    .navbar:hover {
+        width: 12rem
+    }
+    .navbar:hover .nav-link-text {
+        display: inline;
+        opacity: 1;
+    }
+    
+
+
 }
