@@ -1,6 +1,5 @@
 footer {
     background-color: #71187a;
-    
 }
 
 footer a {
@@ -37,4 +36,10 @@ footer h4:hover{
     display: flex;
     flex-direction: row;
     justify-content: center;
+}
+
+@media only screen and (max-width: 600px) {
+    footer {
+        display: none;
+    }
 }

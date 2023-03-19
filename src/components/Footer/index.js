@@ -25,10 +25,10 @@ const Footer = () => {
                     </div>
                 </section>
                 <section className="socials mb-5">
-                    <a href="linkedin.com/in/callum-quirk-ba6269150" class="text-white me-4">
+                    <a href="linkedin.com/in/callum-quirk-ba6269150">
                         <img className="footer-social" alt="Callum Quirk LinkedIn" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-plain.svg" />
                     </a>
-                    <a href="https://github.com/callumquirky" class=" me-4">
+                    <a href="https://github.com/callumquirky">
                         <img className="footer-social" alt="Callum Quirk Github" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
                     </a>
                 </section>

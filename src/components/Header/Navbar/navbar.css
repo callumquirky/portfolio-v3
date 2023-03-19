@@ -31,7 +31,7 @@
     text-decoration: none;
 }
 
-.nav-link svg {
+.nav-link svg, img {
     margin: 0 1.5rem;
     min-width: 2rem;    
 }
@@ -49,12 +49,18 @@
     width: 100%;
 }
 
+.social {
+    display: none;
+}
+
 
 @media only screen and (max-width: 600px) {
     .navbar {
         bottom: 0;
+        position: fixed;
         width: 100vw;
         height: 4rem;
+        z-index: 1;
     }
 
     .navbar-nav {
@@ -70,6 +76,11 @@
 
     main {
         margin: 0;
+    }
+
+    .social {
+        display: inline;
+
     }
 }
 
@@ -87,6 +98,8 @@
         display: inline;
         opacity: 1;
     }
+
+    
     
 
 

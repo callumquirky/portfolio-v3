@@ -25,6 +25,17 @@ const Navbar = () => {
                         <span className="nav-link-text">Contact</span>
                     </a>
                 </li>
+                <li className="nav-item social">
+                    <a className="nav-link" href="linkedin.com/in/callum-quirk-ba6269150">
+                        <img className="navbar-icon" alt="Callum Quirk LinkedIn" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-plain.svg" />
+                    </a>
+                </li>
+                <li className="nav-item social">
+                    <a className="nav-link" href="https://github.com/callumquirky">
+                        <img className="navbar-icon" alt="Callum Quirk Github" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    </a>
+                </li>
+                
             </ul>
         </nav>
     )
