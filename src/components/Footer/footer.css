@@ -1,5 +1,10 @@
 footer {
     background-color: #71187a;
+    padding: 5px;
+    bottom: 0;
+    position: fixed;
+    width: 100vw;
+    height: 7rem;
 }
 
 footer a {
@@ -7,9 +12,7 @@ footer a {
 }
 
 footer h4 {
-    height: 10vh;
-    padding: 5px;
-    margin: 5px;
+    margin-top: 5px;
     color: black;
     font-size: 3.5vh;
     transition: font-size 0.5s;
@@ -21,14 +24,14 @@ footer h4:hover{
 }
 
 .footer-social {
-    height: 10vh;
-    padding: 15px;
+    height: 5vh;
+    padding: 0px 15px 0px 15px;
     margin: 5px;
     transition: height 0.5s;
 }
 
 .footer-social:hover {
-    height: 11.5vh;
+    height: 7vh;
     filter: invert(35%) sepia(93%) saturate(666%) hue-rotate(70deg) brightness(92%) contrast(96%);
 }
 

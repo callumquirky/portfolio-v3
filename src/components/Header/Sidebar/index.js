@@ -1,9 +1,9 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faHouse, faEnvelope, faDiagramProject } from "@fortawesome/free-solid-svg-icons";
-import "../Navbar/navbar.css"
+import "../Sidebar/sidebar.css"
 
-const Navbar = () => {
+const Sidebar = () => {
     return(
         <nav className="navbar">
             <ul className="navbar-nav">
@@ -41,4 +41,4 @@ const Navbar = () => {
     )
 }
 
-export default Navbar
+export default Sidebar

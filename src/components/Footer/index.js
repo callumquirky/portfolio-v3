@@ -5,7 +5,7 @@ const Footer = () => {
     return(
         <footer className="text-center">
             <div className="container">
-                <section className="mt-5">
+                <section className="links">
                     <div className="row text-center d-flex justify-content-center">
                         <div className="col-4">
                                 <a href="/">
@@ -24,7 +24,7 @@ const Footer = () => {
                         </div>
                     </div>
                 </section>
-                <section className="socials mb-5">
+                <section className="socials">
                     <a href="linkedin.com/in/callum-quirk-ba6269150">
                         <img className="footer-social" alt="Callum Quirk LinkedIn" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-plain.svg" />
                     </a>

@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faHome } from "@fortawesome/free-solid-svg-icons";
 import React, { components } from 'react'
 import { BrowserRouter as Router, Routes, Route, } from 'react-router-dom'
-import Navbar from './components/Header/Navbar';
+import Sidebar from './components/Header/Sidebar';
 import About from './components/About'
 import Skills from './components/Skills'
 import Home from './components/Pages/Home'
@@ -17,7 +17,7 @@ function App() {
   return (
     <Router>
       <div>
-        <Navbar />
+        <Sidebar />
           <main>
           <Routes>
             <Route exact path="/" element={<Home />}/>
