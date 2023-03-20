@@ -2,8 +2,7 @@
     position: fixed;
     background-color: #71187a;
     transition: width, 0.5s ease;
-    z-index: 1;
-}
+    }
 
 
 .navbar-nav {
@@ -30,6 +29,10 @@
     align-items: center;
     height: 5rem;
     text-decoration: none;
+}
+
+.nav-item:first-child{
+    margin-top: 4.5vh;
 }
 
 .nav-link svg, img {
@@ -74,6 +77,10 @@
         justify-content: center;
     }
 
+    .nav-item:first-child{
+        margin-top: 0vh;
+    }
+    
 
     main {
         margin: 0;
