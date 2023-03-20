@@ -39,7 +39,7 @@
     transition: .5s;
 }
 
-@media only screen and (max-width: 952px){
+@media only screen and (min-width: 600px) and (max-width: 952px){
     label.logo{
         font-size: 30px;
         padding-left: 50px;
@@ -49,11 +49,11 @@
     }
 }
 
-@media only screen and (max-width: 600px) {
-    .logo{
+@media only screen and (min-width:0px) and (max-width: 600px){
+    #top-nav{
         text-align: center;
     }
-    .top-nav-link {
+    .top-nav-ul {
         display: none;
     }
 }
