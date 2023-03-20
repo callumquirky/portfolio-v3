@@ -11,27 +11,26 @@ footer a {
     text-decoration: none;
 }
 
+.footer-link h4:hover{
+    background: #238f0a;
+    transition: 0.5s;
+}
+
 footer h4 {
     margin-top: 5px;
     color: black;
     font-size: 3.5vh;
-    transition: font-size 0.5s;
-}
-
-footer h4:hover{
-    filter: invert(35%) sepia(93%) saturate(666%) hue-rotate(70deg) brightness(92%) contrast(96%);
-    font-size: 4vh;
+    border-radius: 3px;
 }
 
 .footer-social {
     height: 5vh;
     padding: 0px 15px 0px 15px;
     margin: 5px;
-    transition: height 0.5s;
+    transition: filter 0.5s;
 }
 
 .footer-social:hover {
-    height: 7vh;
     filter: invert(35%) sepia(93%) saturate(666%) hue-rotate(70deg) brightness(92%) contrast(96%);
 }
 

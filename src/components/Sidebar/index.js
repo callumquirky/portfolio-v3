@@ -1,7 +1,7 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faHouse, faEnvelope, faDiagramProject } from "@fortawesome/free-solid-svg-icons";
-import "../Sidebar/sidebar.css"
+import "./sidebar.css"
 
 const Sidebar = () => {
     return(

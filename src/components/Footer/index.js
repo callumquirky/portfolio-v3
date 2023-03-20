@@ -7,17 +7,17 @@ const Footer = () => {
             <div className="container">
                 <section className="links">
                     <div className="row text-center d-flex justify-content-center">
-                        <div className="col-4">
+                        <div className="col footer-link">
                                 <a href="/">
                                     <h4 className="font-weight-bold">Home</h4>
                                 </a>
                         </div>
-                        <div className="col-4">
+                        <div className="col footer-link">
                                 <a href="/projects">
                                     <h4 className="font-weight-bold">Projects</h4>
                                 </a>
                         </div>
-                        <div className="col-4">
+                        <div className="col footer-link">
                         <a href="/contact">
                             <h4 className="font-weight-bold">Contact</h4>
                         </a>
