@@ -68,6 +68,10 @@
         z-index: 1;
     }
 
+    .nav-link-text {
+        display: none;
+    }
+
     .navbar-nav {
         width: 100vw;
         flex-direction: row;
