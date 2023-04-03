@@ -3,8 +3,8 @@ import "../Footer/footer.css"
 
 const Footer = () => {
     return(
-        <footer className="text-center">
-            <div className="container">
+        <footer>
+            <div className="container footer-container">
                 <section className="links">
                     <div className="row text-center d-flex justify-content-center">
                         <div className="col footer-link">
