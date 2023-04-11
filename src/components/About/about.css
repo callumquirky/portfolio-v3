@@ -2,12 +2,14 @@
     margin-top: 4rem;
     margin-left: 4rem;
     padding: 20px;
+    height: auto;
+    width: auto;
 }
 
 .about-container-img  {
     height: auto;
     width: auto;
-    max-height: 30rem;    
+    max-height: 50vh;    
     border-radius: 50%;
 }
 
@@ -54,3 +56,32 @@
 .about-container-links button:hover {
     background-color: #238f0a;
 }
+
+ /* @media only screen and (max-width: 1200px){
+    .about-container {
+        margin-top: 7.5vh;
+        margin-left: 0;
+        padding: 0;
+    }
+    
+} */
+
+@media only screen and (max-width: 1000px){
+    .about-container {
+        margin-top: 0;
+        margin-left: 0;
+        padding: 0;
+    }
+    
+} 
+
+@media only screen and (max-width: 600px){
+    .about-container {
+        margin-top: 10px;
+        margin-left:0;
+        padding: 0;
+    }
+    
+} 
+
+
