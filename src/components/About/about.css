@@ -1,3 +1,56 @@
 .about-container {
     margin-top: 4rem;
+    margin-left: 4rem;
+    padding: 20px;
+}
+
+.about-container-img  {
+    height: auto;
+    width: auto;
+    max-height: 30rem;    
+    border-radius: 50%;
+}
+
+.about-container-text {
+    align-items: center;
+}
+
+.about-container h2 {
+    font-size: 4.5rem;
+    font-weight: bold;
+    color: #71187a;
+}
+
+.about-container h3 {
+    line-height: 2.35rem;
+    padding: 5px;
+}
+
+.about-container h4 {
+    font-size: 1.35rem;
+}
+
+.about-container-icon {
+    height: 4.5vh;
+    transition: filter 0.5s;
+}
+
+.about-container-icon:hover {
+    filter: invert(35%) sepia(93%) saturate(666%) hue-rotate(70deg) brightness(92%) contrast(96%);
+}
+
+.about-container-links {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.about-container-links button {
+    margin-right: 5vw;
+    transition: background-color, 0.5s;
+}
+
+.about-container-links button:hover {
+    background-color: #238f0a;
 }

@@ -18,7 +18,6 @@ function App() {
   return (
     <Router>
       <div>
-        <Navbar />
         <Sidebar />
           <main>
           <Routes>
