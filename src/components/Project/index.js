@@ -4,7 +4,7 @@ import '../Project/project.css'
 
 function Project(props){
     return(
-        <div className="col-lg-4 project-container">
+        <div className="col-sm-4 project-container">
             <div className="img-container">
                 <img alt={props.name} src={props.image}/>
             </div>

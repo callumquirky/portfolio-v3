@@ -1,55 +1,45 @@
 import React from "react";
 import Project from "../../Project";
 import projectData from "./projectData.json"
+import "../Projects/projects.css"
 
 const Projects = () => {
     return(
         <div className="container pt-4">
-            <h2>My projects</h2>
-            <h4>Here are some projects I've worked on. Select a project to view the repo or view the deployed link.</h4>
             <div className="row">
-                <Project 
-                name={projectData[0].name}
-                image={projectData[0].image}
-                description={projectData[0].description}
-                deployedLink={projectData[0].deployedLink}
-                repoLink={projectData[0].repoLink}
-                />
-                <Project 
-                name={projectData[1].name}
-                image={projectData[1].image}
-                description={projectData[1].description}
-                deployedLink={projectData[1].deployedLink}
-                repoLink={projectData[1].repoLink}
-                />
-                <Project 
-                name={projectData[2].name}
-                image={projectData[2].image}
-                description={projectData[2].description}
-                deployedLink={projectData[2].deployedLink}
-                repoLink={projectData[2].repoLink}
-                />
-                <Project 
-                name={projectData[3].name}
-                image={projectData[3].image}
-                description={projectData[3].description}
-                deployedLink={projectData[3].deployedLink}
-                repoLink={projectData[3].repoLink}
-                />
-                <Project 
-                name={projectData[4].name}
-                image={projectData[4].image}
-                description={projectData[4].description}
-                deployedLink={projectData[4].deployedLink}
-                repoLink={projectData[4].repoLink}
-                />
-                <Project 
-                name={projectData[5].name}
-                image={projectData[5].image}
-                description={projectData[5].description}
-                deployedLink={projectData[5].deployedLink}
-                repoLink={projectData[5].repoLink}
-                />
+                <h2>My work</h2>
+                    <div className="col">
+                    <h3>Featured project:</h3>
+                        <div className="row">
+                            <div className="col featured-project-text">
+                                <h4>Web application that utilises JavaScript, jQuery, and Bootstrap to assist with meal planning. Search for dishes by ingredients, or search for ingredients by dishes! Add them to your mealplan (local storage functionality) to plan your week ahead.</h4>
+                            </div>
+                            <div className="col">
+                                <h3 className="text-center">What's For Tea!?</h3>
+                                <img className="featured-project-img" alt="What's For Tea?" src="images/whats-for-tea.PNG"></img>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="row">
+                        <Project
+                        name={projectData[1].name}
+                        image={projectData[1].image}
+                        description={projectData[1].deployedLink}
+                        repoLink={projectData[1].repoLink}
+                        />
+                        <Project
+                        name={projectData[2].name}
+                        image={projectData[2].image}
+                        description={projectData[2].deployedLink}
+                        repoLink={projectData[2].repoLink}
+                        />
+                        <Project
+                        name={projectData[3].name}
+                        image={projectData[3].image}
+                        description={projectData[3].deployedLink}
+                        repoLink={projectData[3].repoLink}
+                        />
+                    </div>
             </div>
         </div>
     )

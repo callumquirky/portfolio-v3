@@ -1,0 +1,11 @@
+.featured-project-img {
+    height: 35vh;
+    border-radius: 10%;
+}
+
+.featured-project-text {
+    margin-top: 5vh;
+    display: flex;
+    align-items: center;
+    text-align: right;
+}
