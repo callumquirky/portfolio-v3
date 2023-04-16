@@ -4,15 +4,20 @@
     position: relative;
     display: flex;
     align-items: center;
-    height: 25vh;
-    width: 25vw;
-    
+    height: 27vh;
+    width: 27vw;
+    margin: 10px 5px;
+    padding: 5px;
 }
 
 .project-container img {
     height: 100%;
     width: 100%;
     object-fit: 100%;
+}
+
+.featured-project-text {
+    text-align: left;
 }
 
 .project-content {
@@ -30,6 +35,21 @@
     
 }
 
+.project-content {
+    padding: 5px;
+}
+
+.project-content h4 {
+    font-size: 1.85vw;
+}
+
+.project-container p {
+    font-size: 1.15vw;
+}
+
+
+
+
 .project-container:hover {
     cursor:pointer;
 }
@@ -38,5 +58,11 @@
     height: 100%;
     width: 100%;
     visibility: visible;
-    opacity: 1; 
+    opacity: 0.8; 
+}
+
+.container h2 {
+    font-size: 4.5rem;
+    font-weight: bold;
+    color: #71187a;
 }

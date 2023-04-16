@@ -8,10 +8,10 @@ function Project(props){
             <div className="project-container">
                 <img className="card-img-top" alt={props.name} src={props.image}/>
                 <div className="project-content">
-                    <h4>
+                    <h4 className="project-text">
                         {props.name}
                     </h4>
-                    <p>
+                    <p className="project-text">
                         {props.description}
                     </p>
                 <a className="btn" href={props.deployedLink}>
