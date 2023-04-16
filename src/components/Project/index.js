@@ -17,7 +17,7 @@ function Project(props){
                 <a className="btn" href={props.deployedLink}>
                     View Deployed Link
                 </a>
-                <a className ="btn" href={props.repoLink}>
+                <a className="btn" href={props.repoLink}>
                     View Repo
                 </a>
                 </div>

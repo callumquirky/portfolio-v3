@@ -30,13 +30,12 @@
     color: white;
     opacity: 0;
     visibility: hidden;
-    -webkit-transition: visibility 0s, opacity 0.5s linear; 
-    transition: visibility 0s, opacity 0.5s linear;
-    
+    -webkit-transition: all 0.75s ease-in; 
+    transition: all 0.75s ease-in;
 }
 
 .project-content {
-    padding: 5px;
+    padding: 7.5px;
 }
 
 .project-content h4 {
@@ -58,11 +57,24 @@
     height: 100%;
     width: 100%;
     visibility: visible;
-    opacity: 0.8; 
+    opacity: 1; 
+    
 }
 
 .container h2 {
     font-size: 4.5rem;
     font-weight: bold;
     color: #71187a;
+}
+
+.btn {
+    background-color: #EF6D6D;
+    border: #EF6D6D;
+    margin: 2.5px;
+    color: white;
+}
+
+.btn:hover {
+    background-color: #357C3C;
+    border: #357C3C
 }
