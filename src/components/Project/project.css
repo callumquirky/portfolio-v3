@@ -89,8 +89,67 @@
         order: 66;
     }
 
-    .project-container {
-        height: 30vw;
-        width: 45vw;
+    .project-container, .project-content {
+        height: 40vh;
+        width: 50vw;
+    }
+
+    .featured-project-img {
+        max-height: 30vh;
+        height: auto;
+    }
+
+    .project-content h4 {
+        font-size: 2.85vw;
+    }
+    
+    .project-container p {
+        font-size: 1.75vw;
+    }
+    
+
+    .project-container:hover .project-content{
+        height: 40vh;
+        width: 50vw;
+        visibility: visible;
+        opacity: 1; 
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .project-row{
+        position: relative;
+        flex-direction: column;
+        align-items: center;
+        right: 6.5rem;
+    }
+
+    .featured-project-text {
+        order: 66;
+    }
+
+    .project-container, .project-content {
+        height: 40vh;
+        width: 65vw;
+    }
+
+    .featured-project-img {
+        max-height: 30vh;
+        height: auto;
+    }
+
+    .project-content h4 {
+        font-size: 4.75vw;
+    }
+    
+    .project-container p {
+        font-size: 2.5vw;
+    }
+
+    .project-container:hover .project-content{
+        height: 40vh;
+        width: 65vw;
+        visibility: visible;
+        opacity: 1; 
     }
 }
