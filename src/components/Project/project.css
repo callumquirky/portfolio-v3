@@ -89,9 +89,13 @@
         order: 66;
     }
 
+    .featured-project {
+        flex-direction: column;
+    }
+
     .project-container, .project-content {
         height: 40vh;
-        width: 50vw;
+        width: 55vw;
     }
 
     .featured-project-img {
@@ -110,7 +114,7 @@
 
     .project-container:hover .project-content{
         height: 40vh;
-        width: 50vw;
+        width: 55vw;
         visibility: visible;
         opacity: 1; 
     }
@@ -126,11 +130,16 @@
 
     .featured-project-text {
         order: 66;
+        
+    }
+
+    .featured-project-text h4 {
+        text-align: center;
     }
 
     .project-container, .project-content {
         height: 40vh;
-        width: 65vw;
+        width: 70vw;
     }
 
     .featured-project-img {
@@ -144,6 +153,10 @@
     
     .project-container p {
         font-size: 2.5vw;
+    }
+
+    .project-container:last-child {
+        margin-bottom: 5rem;
     }
 
     .project-container:hover .project-content{

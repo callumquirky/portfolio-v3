@@ -9,7 +9,7 @@ const Projects = () => {
             <div className="row">
                 <h2>My work</h2>
                     <div className="col">
-                        <div className="row">
+                        <div className="row featured-project">
                             <div className="col featured-project-text">
                                 <h4>Web application that utilises JavaScript, jQuery, and Bootstrap to assist with meal planning. Search for dishes by ingredients, or search for ingredients by dishes! Add them to your mealplan (local storage functionality) to plan your week ahead.</h4>
                             </div>

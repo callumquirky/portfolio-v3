@@ -6,3 +6,8 @@ main{
     margin-left: 5rem;
 }
 
+@media only screen and (max-width: 600px){
+    main{
+        margin-left: 0rem;
+    }
+}
