@@ -27,7 +27,7 @@
         "id": 4,
         "name": "JavaScript Quiz",
         "image": "images/javascript-quiz.PNG",
-        "description": "A JavaScript quiz built in JavaScript, displays questions by manipulating the DOM and is complete with high score save feature and a timer",
+        "description": "A JavaScript quiz built in JavaScript, manipulates DOM to display questions, local storage to save scores, and tense gameplay with timer",
         "deployedLink": "https://callumquirky.github.io/javascript-quiz/",
         "repoLink": "https://github.com/callumquirky/javascript-quiz"
     },
