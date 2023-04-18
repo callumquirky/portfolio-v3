@@ -4,9 +4,13 @@
     position: relative;
     display: flex;
     align-items: center;
-    height: 32.5vh;
-    width: 27.5vw;
+    height: 20vw;
     margin: 15px 5px;
+}
+
+.rounded-divider {
+    border: 4px solid #71187a;
+    border-radius: 5px;
 }
 
 .project-container img {
@@ -19,9 +23,12 @@
     text-align: left;
 }
 
+.featured-project {
+    margin-bottom: 1vh;
+}
+
 .project-content {
-    height: 32.5vh;
-    width: 27.5vw;
+    height: 20vw;
     padding: 7.5px;
     display: flex;
     flex-direction: column;
@@ -50,8 +57,7 @@
 }
 
 .project-container:hover .project-content{
-    height: 32.5vh;
-    width: 27.5vw;
+    height: 20vw;
     visibility: visible;
     opacity: 1; 
     
@@ -76,6 +82,10 @@
     border: #357C3C
 }
 
+.hide {
+    display: none;
+}
+
 @media only screen and (max-width: 1000px) {
     .project-row{
         position: relative;
@@ -86,7 +96,7 @@
 
     .featured-project-text {
         order: 66;
-        margin-top: 0px;
+        margin-top: 0vh !important;
     }
 
     .featured-project {
@@ -94,7 +104,7 @@
     }
     
     .featured-project-text h4 {
-        margin-bottom: 15px;
+        margin-bottom: 25px;
     }
 
     .project-container {
@@ -107,16 +117,17 @@
     }
 
     .featured-project-img {
-        max-height: 30vh;
-        height: auto;
+        height: 60vw;
+        display: block;
+        margin: 10px auto;
     }
 
     .project-content h4 {
-        font-size: 2.85vw;
+        font-size: 4vw;
     }
     
     .project-container p {
-        font-size: 1.75vw;
+        font-size: 1.85vw;
     }
     
     .project-container:hover .project-content{
@@ -125,6 +136,7 @@
         visibility: visible;
         opacity: 1; 
     }
+
 }
 
 @media only screen and (max-width: 600px) {
@@ -132,7 +144,6 @@
         position: relative;
         flex-direction: column;
         align-items: center;
-        right: 6.5rem;
     }
 
     .featured-project-text {
@@ -150,16 +161,17 @@
     }
 
     .featured-project-img {
-        max-height: 30vh;
-        height: auto;
+        height: 30vh !important;
+        margin: 10px auto;
+        
     }
 
     .project-content h4 {
-        font-size: 4.75vw;
+        font-size: 5.5vw;
     }
     
     .project-container p {
-        font-size: 2.5vw;
+        font-size: 2.75vw;
     }
 
     .project-container:last-child {
@@ -171,5 +183,9 @@
         width: 70vw;
         visibility: visible;
         opacity: 1; 
+    }
+
+    .hide {
+        display: block;
     }
 }

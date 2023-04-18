@@ -19,28 +19,33 @@ const Projects = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="row project-row">
-                        <Project
-                        name={projectData[1].name}
-                        image={projectData[1].image}
-                        description={projectData[1].description}
-                        deployedLink={projectData[1].deployedLink}
-                        repoLink={projectData[1].repoLink}
-                        />
-                        <Project
-                        name={projectData[2].name}
-                        image={projectData[2].image}
-                        description={projectData[2].description}
-                        deployedLink={projectData[2].deployedLink}
-                        repoLink={projectData[2].repoLink}
-                        />
-                        <Project
-                        name={projectData[3].name}
-                        image={projectData[3].image}
-                        description={projectData[3].description}
-                        deployedLink={projectData[3].deployedLink}
-                        repoLink={projectData[3].repoLink}
-                        />
+                    <hr className="rounded-divider"></hr>
+                    <div className="col">
+                        <div className="row project-row">
+                            <Project
+                            name={projectData[1].name}
+                            image={projectData[1].image}
+                            description={projectData[1].description}
+                            deployedLink={projectData[1].deployedLink}
+                            repoLink={projectData[1].repoLink}
+                            />
+                            <hr className="rounded-divider hide"></hr>
+                            <Project
+                            name={projectData[2].name}
+                            image={projectData[2].image}
+                            description={projectData[2].description}
+                            deployedLink={projectData[2].deployedLink}
+                            repoLink={projectData[2].repoLink}
+                            />
+                            <hr className="rounded-divider hide"></hr>
+                            <Project
+                            name={projectData[3].name}
+                            image={projectData[3].image}
+                            description={projectData[3].description}
+                            deployedLink={projectData[3].deployedLink}
+                            repoLink={projectData[3].repoLink}
+                            />
+                        </div>
                     </div>
             </div>
         </div>

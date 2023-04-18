@@ -93,6 +93,7 @@
 @media only screen and (max-width: 600px){
     .about-container {
         text-align: center;
+        margin: 10px 0;
     }
     
     .about-container-img  {
