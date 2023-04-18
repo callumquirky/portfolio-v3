@@ -4,7 +4,7 @@ import '../Project/project.css'
 
 function Project(props){
     return(
-        <div className="col-sm-4 ">
+        <div className="col">
             <div className="project-container">
                 <img className="card-img-top" alt={props.name} src={props.image}/>
                 <div className="project-content">
