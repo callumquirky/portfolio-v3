@@ -12,7 +12,7 @@ const About = () => {
                 </div>
                 <div className="col about-container-text">
                     <h2>Callum Quirk</h2>
-                    <h3>A UK (Sheffield) based front-end developer passionate about responsive design, creative interactivity, and efficient solutions.</h3>
+                    <h3>UK based front-end developer. Passionate about responsive design, creative interactivity, and efficient solutions.</h3>
                     <div className="about-container-links">
                         <button><h4>Download CV</h4></button>
                         <a href="linkedin.com/in/callum-quirk-ba6269150">

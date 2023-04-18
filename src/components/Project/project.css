@@ -161,7 +161,7 @@
 
     .project-container:hover .project-content{
         height: 40vh;
-        width: 65vw;
+        width: 70vw;
         visibility: visible;
         opacity: 1; 
     }
