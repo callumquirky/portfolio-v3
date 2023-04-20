@@ -8,21 +8,6 @@ const Contacts = () => {
         <div className="container pt-4 contact-head">
             <h2 id="contact-title">Let's get in touch</h2>
             <div className="row contact-column">
-                {/* <Contact 
-                contactMethod={contactInformation[1].contactMethod}
-                icon={contactInformation[1].icon}
-                link={contactInformation[1].link}
-                />
-                <Contact 
-                contactMethod={contactInformation[2].contactMethod}
-                icon={contactInformation[2].icon}
-                link={contactInformation[2].link}
-                />
-                <Contact 
-                contactMethod={contactInformation[3].contactMethod}
-                icon={contactInformation[3].icon}
-                link={contactInformation[3].link}
-                /> */}
                 <div className="col-4 contact-card" >
                     <a href="tel:+447365913482">
                         <FontAwesomeIcon icon={faPhone} className="contact-icon"/>
