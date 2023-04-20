@@ -5,7 +5,7 @@
     display: flex;
     align-items: center;
     height: 20vw;
-    margin: 15px 5px;
+    margin: 5px 5px;
 }
 
 .rounded-divider {
@@ -24,7 +24,7 @@
 }
 
 .featured-project {
-    margin-bottom: 1vh;
+    margin-bottom: 1.5vh;
 }
 
 .project-content {
