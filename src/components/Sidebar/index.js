@@ -25,13 +25,13 @@ const Sidebar = () => {
                         <span className="nav-link-text">Contact</span>
                     </a>
                 </li>
-                <li className="nav-item social">
+                <li className="nav-item">
                     <a className="nav-link" href="linkedin.com/in/callum-quirk-ba6269150">
                         <img className="navbar-icon" alt="Callum Quirk LinkedIn" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-plain.svg"/>
                         <span className="nav-link-text">LinkedIn</span>
                     </a>
                 </li>
-                <li className="nav-item social">
+                <li className="nav-item">
                     <a className="nav-link" href="https://github.com/callumquirky">
                         <img className="navbar-icon" alt="Callum Quirk Github" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"/>
                         <span className="nav-link-text">GitHub</span>                        
