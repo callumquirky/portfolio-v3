@@ -9,7 +9,7 @@ import Navbar from './components/Header/Navbar';
 import About from './components/About'
 import Skills from './components/Skills'
 import Home from './components/Pages/Home'
-import Contact from './components/Pages/Contact'
+import Contacts from './components/Pages/Contact'
 import Projects from './components/Pages/Projects'
 import Footer from './components/Footer'
 
@@ -22,7 +22,7 @@ function App() {
           <main>
           <Routes>
             <Route exact path="/" element={<Home />}/>
-            <Route exact path="/contact" element={<Contact />}/>
+            <Route exact path="/contacts" element={<Contacts />}/>
             <Route exact path="/projects" element={<Projects />}/>
           </Routes>
         </main>

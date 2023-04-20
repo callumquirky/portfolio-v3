@@ -1,0 +1,20 @@
+[
+    {
+        "id":1,
+        "contactMethod": "Phone",
+        "icon": "faPhone",
+        "link": "tel:+447365913482"
+    },
+    {
+        "id":2,
+        "contactMethod": "Email",
+        "icon": "faEnvelope",
+        "link": "mailto:callumbquirk@gmail.com"
+    },
+    {
+        "id":3,
+        "contactMethod": "LinkedIn",
+        "icon": "faLinkedIn",
+        "link": "linkedin.com/in/callum-quirk-ba6269150"
+    }
+]

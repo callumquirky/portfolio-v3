@@ -103,7 +103,7 @@
     }
 
     .navbar:hover {
-        width: 12.5rem
+        width: 12rem
     }
     .navbar:hover .nav-link-text {
         visibility: visible;

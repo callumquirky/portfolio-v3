@@ -20,7 +20,7 @@ const Sidebar = () => {
                     </a>
                 </li>
                 <li className="nav-item">
-                    <a className="nav-link" href="/contact">
+                    <a className="nav-link" href="/contacts">
                         <FontAwesomeIcon icon={faEnvelope} className="navbar-icon"/>
                         <span className="nav-link-text">Contact</span>
                     </a>
