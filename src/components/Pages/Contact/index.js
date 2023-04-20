@@ -5,9 +5,9 @@ import { faPhone, faEnvelope, faLinkedIn } from "@fortawesome/free-solid-svg-ico
 
 const Contacts = () => {
     return(
-        <div className="container">
-            <h2>Let's get in touch:</h2>
-            <div className="row">
+        <div className="container pt-4 contact-head">
+            <h2 id="contact-title">Let's get in touch</h2>
+            <div className="row contact-column">
                 {/* <Contact 
                 contactMethod={contactInformation[1].contactMethod}
                 icon={contactInformation[1].icon}
