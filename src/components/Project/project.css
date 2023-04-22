@@ -65,8 +65,8 @@
 }
 
 
-.container h2 {
-    font-size: 4.5rem;
+.project-title {
+    font-size: 3rem;
     font-weight: bold;
     color: #71187a;
 }

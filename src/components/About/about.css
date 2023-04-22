@@ -18,7 +18,7 @@
 }
 
 .about-container h2 {
-    font-size: 4.5rem;
+    font-size: 3rem;
     font-weight: bold;
     color: #71187a;
 }
@@ -46,7 +46,8 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
-    margin-top: 1.25vh;
+    padding: 5px;
+    margin: 1.25vh;
 }
 
 .about-container-links button {
