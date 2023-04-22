@@ -16,7 +16,7 @@ const About = () => {
                         <a href="https://docs.google.com/document/d/11_S0ckrd3R5XYFniTrEemF9NpIs1Agi6GJNB5BtYxs0/edit?usp=share_link" target="_blank" rel="noopener noreferrer">
                             <button className="btn form-btn">View CV</button>
                         </a>
-                        <a href="linkedin.com/in/callum-quirk-ba6269150" target="_blank" rel="noopener noreferrer">
+                        <a href="https://linkedin.com/in/callum-quirk-ba6269150" target="_blank" rel="noopener noreferrer">
                             <img className="about-container-icon" alt="Callum Quirk LinkedIn" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-plain.svg" />
                         </a>
                         <a href="https://github.com/callumquirky" target="_blank" rel="noopener noreferrer">

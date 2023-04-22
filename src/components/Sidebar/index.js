@@ -26,13 +26,13 @@ const Sidebar = () => {
                     </a>
                 </li>
                 <li className="nav-item">
-                    <a className="nav-link" href="linkedin.com/in/callum-quirk-ba6269150">
+                    <a className="nav-link" href="https://linkedin.com/in/callum-quirk-ba6269150" target="_blank" rel="noopener noreferrer">
                         <FontAwesomeIcon icon={icon({name: 'linkedin', style: 'brands'})} className="navbar-icon"/>
                         <span className="nav-link-text">LinkedIn</span>
                     </a>
                 </li>
                 <li className="nav-item">
-                    <a className="nav-link" href="https://github.com/callumquirky">
+                    <a className="nav-link" href="https://github.com/callumquirky" target="_blank" rel="noopener noreferrer">
                         <FontAwesomeIcon icon={icon({name: 'github', style: 'brands'})} className="navbar-icon"/>
                         <span className="nav-link-text">GitHub</span>                        
                     </a>
