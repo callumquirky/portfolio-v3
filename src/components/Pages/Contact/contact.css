@@ -13,7 +13,7 @@
 
 .contact-column {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
 }
 
@@ -22,13 +22,27 @@
     color: black;
 }
 
+.contact-form {
+    margin: auto;
+    padding: 10px;
+}
+
+.form-btn {
+    background-color: #71187a !important;
+}
+
+.form-btn:hover {
+    background-color: #238f0a !important;
+    color: white;
+}
+
 
 .contact-text {
     padding: 1vh;
 }
 
 .contact-icon {
-    height: 17vw;
+    height: 5vw;
     transition: filter 0.35s ease-in;
     filter: invert(0%) sepia(86%) saturate(7442%) hue-rotate(139deg) brightness(90%) contrast(113%);
 }
@@ -38,6 +52,20 @@
 }
 
 @media only screen and (min-width: 706px) {
+    .contact-column {
+        position: relative;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;         
+        top: 12.5vh;   
+    }
+
+    #contact-title {
+        font-size: 5.5vw;
+    }
+}
+
+@media only screen and (min-width: 950px) {
     .contact-column {
         position: relative;
         flex-direction: row;
