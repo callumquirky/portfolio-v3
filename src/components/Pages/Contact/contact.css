@@ -23,7 +23,7 @@
 }
 
 .contact-form {
-    margin: auto;
+    margin: auto !important;
     padding: 10px;
 }
 

@@ -99,7 +99,7 @@
     .navbar{
         top: 0;
         width: 5rem;
-        height: 100vh;
+        height: 100%;
     }
 
     .navbar:hover {
