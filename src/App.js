@@ -1,6 +1,6 @@
 import './App.css';
 import './fonts/fonts.css'
-import React, { components } from 'react'
+import React from 'react'
 import { BrowserRouter as Router, Routes, Route, } from 'react-router-dom'
 import Sidebar from './components/Sidebar';
 import Home from './components/Pages/Home'
