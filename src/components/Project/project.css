@@ -163,7 +163,8 @@
     }
 
     .featured-project-img {
-        height: 30vh !important;
+        height: 40vh !important;
+        width: 80vw !important;
         margin: 10px auto;
         
     }

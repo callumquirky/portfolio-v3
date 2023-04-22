@@ -61,20 +61,6 @@
     }
 
     #contact-title {
-        font-size: 5.5vw;
-    }
-}
-
-@media only screen and (min-width: 950px) {
-    .contact-column {
-        position: relative;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
-        padding: 5px;              
-    }
-
-    #contact-title {
-        font-size: 5.5vw;
+        font-size: 5rem;
     }
 }
