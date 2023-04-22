@@ -17,7 +17,7 @@
 }
 
 .navbar-icon {
-    filter: invert(0%) sepia(2%) saturate(17%) hue-rotate(355deg) brightness(98%) contrast(99%);
+    /* filter: invert(0%) sepia(2%) saturate(17%) hue-rotate(355deg) brightness(98%) contrast(99%); */
     height: 3vh;
 }
 
