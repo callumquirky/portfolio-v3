@@ -14,8 +14,8 @@ function Project(props){
                     <p className="project-text">
                         {props.description}
                     </p>
-                <a className="btn" href={props.deployedLink}>
-                    View Deployed Link
+                <a className="btn" href={props.deployedLink} target="_blank" rel="noopener noreferrer">
+                    Deployed Link
                 </a>
                 <a className="btn" href={props.repoLink}>
                     View Repo

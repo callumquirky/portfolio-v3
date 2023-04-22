@@ -21,6 +21,7 @@
 
 .featured-project-text {
     text-align: left;
+    flex-direction: column;
 }
 
 .featured-project {
@@ -103,9 +104,6 @@
         flex-direction: column;
     }
     
-    .featured-project-text h4 {
-        margin-bottom: 25px;
-    }
 
     .project-container {
         margin: 10px auto;
@@ -135,6 +133,10 @@
         width: 55vw;
         visibility: visible;
         opacity: 1; 
+    }
+
+     .hide {
+        display: block;
     }
 
 }
@@ -185,7 +187,5 @@
         opacity: 1; 
     }
 
-    .hide {
-        display: block;
-    }
+   
 }
