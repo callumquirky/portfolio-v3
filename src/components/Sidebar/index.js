@@ -25,7 +25,6 @@ const Sidebar = () => {
                         <span className="nav-link-text">Contact</span>
                     </a>
                 </li>
-                
                 <li className="nav-item">
                     <a className="nav-link" href="linkedin.com/in/callum-quirk-ba6269150">
                         <FontAwesomeIcon icon={icon({name: 'linkedin', style: 'brands'})} className="navbar-icon"/>
@@ -38,7 +37,6 @@ const Sidebar = () => {
                         <span className="nav-link-text">GitHub</span>                        
                     </a>
                 </li>
-                
             </ul>
         </nav>
     )
