@@ -7,15 +7,21 @@ const Contacts = () => {
         <div className="container pt-4 contact-head">
             <h2 id="contact-title">Let's get in touch</h2>
             <div class="col-lg-6 text-center contact-form">
-                <form  name="contact" netlify>
+                <form  
+                    name="contact"
+                    method="post" netlify
+                    data-netlify="true"
+                    onSubmit={"submit"}>
+                    <input type="hidden" name="form-name" value={"contact-v1"}></input>
                     <input type="text" name="name" className="form-control form-control-lg" placeholder="Name"/>
                     <input type="email" name="email" className="form-control mt-3" placeholder="Email"/>
                     <input type="text" name="subject" className="form-control mt-3" placeholder="Subject"/>
                     <div class="mb-3 mt-3">
                         <textarea class="form-control" rows="5" id="comment" name="text" placeholder="Your message"></textarea>
                     </div>
+                    <button type="submit" className="btn mt-3 form-btn">Send</button>
                 </form>
-                <button type="button" className="btn mt-3 form-btn">Contact Me</button>
+                
             </div>
 
             <div className="row contact-column">
@@ -25,7 +31,7 @@ const Contacts = () => {
                         <h4 className="contact-text">Phone</h4>
                     </a>
                 </div>
-                <div className="col-4 contact-card" >                 
+                <div className="col-4 contact-card" >            
                     <a href="mailto:callumbquirk@gmail.com">
                         <FontAwesomeIcon icon={icon({name: 'envelope'})} className="contact-icon"/>
                         <h4 className="contact-text">Email</h4>
