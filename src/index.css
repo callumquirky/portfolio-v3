@@ -23,3 +23,8 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+::selection {
+  background: #238f0a;
+  color: black;
+}
