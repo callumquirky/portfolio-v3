@@ -16,7 +16,7 @@ const Contacts = () => {
                     <input required type="text" name="name" className="form-control form-control-lg" placeholder="Name"/>
                     <input required type="email" name="email" className="form-control mt-3" placeholder="Email"/>
                     <input required type="text" name="subject" className="form-control mt-3" placeholder="Subject"/>
-                    <textarea required className="form-control mb-3 mt-3" rows="5" name="text" placeholder="Your message"></textarea>
+                    <textarea required className="form-control mb-3 mt-3" rows="5" name="message" placeholder="Your message"></textarea>
                     <button type="submit" className="btn form-btn">Send</button>
                 </form>
                 
