@@ -9,17 +9,15 @@ const Contacts = () => {
             <div class="col-lg-6 text-center contact-form">
                 <form  
                     name="contact"
-                    method="post" netlify
-                    data-netlify="true"
-                    onSubmit={"submit"}>
-                    <input type="hidden" name="form-name" value={"contact-v1"}></input>
-                    <input type="text" name="name" className="form-control form-control-lg" placeholder="Name"/>
-                    <input type="email" name="email" className="form-control mt-3" placeholder="Email"/>
-                    <input type="text" name="subject" className="form-control mt-3" placeholder="Subject"/>
-                    <div class="mb-3 mt-3">
-                        <textarea class="form-control" rows="5" id="comment" name="text" placeholder="Your message"></textarea>
-                    </div>
-                    <button type="submit" className="btn mt-3 form-btn">Send</button>
+                    action="/contact"
+                    method="post">
+                    
+                    <input type="hidden" name="form-name" value="contact" />
+                    <input required type="text" name="name" className="form-control form-control-lg" placeholder="Name"/>
+                    <input required type="email" name="email" className="form-control mt-3" placeholder="Email"/>
+                    <input required type="text" name="subject" className="form-control mt-3" placeholder="Subject"/>
+                    <textarea required className="form-control mb-3 mt-3" rows="5" name="text" placeholder="Your message"></textarea>
+                    <button type="submit" className="btn form-btn">Send</button>
                 </form>
                 
             </div>
