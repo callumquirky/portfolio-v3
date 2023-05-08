@@ -12,7 +12,7 @@ const Projects = () => {
                         <div className="row featured-project">
                             <div className="col featured-project-text">
                                 <h4>Web application that utilises JavaScript, jQuery, and Bootstrap to assist with meal planning. Search for dishes by ingredients, or search for ingredients by dishes! Add them to your mealplan (local storage functionality) to plan your week ahead.</h4>
-                                <a href="https://docs.google.com/document/d/11_S0ckrd3R5XYFniTrEemF9NpIs1Agi6GJNB5BtYxs0/edit?usp=share_link" target="_blank" rel="noopener noreferrer">
+                                <a href="https://callumquirky.github.io/whats-for-tea/" target="_blank" rel="noopener noreferrer">
                                     <button className="btn form-btn">Deployed Link</button>
                                 </a>
                                 <a href="https://github.com/callumquirky/whats-for-tea" target="_blank" rel="noopener noreferrer">
